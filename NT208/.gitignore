@@ -1,0 +1,47 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ===== Node.js =====
+node_modules/
+.next/
+out/
+
+# ===== Environment & Secrets =====
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# ===== Database =====
+*.db
+*.sqlite3
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+
+# ===== Build =====
+*.tsbuildinfo
+next-env.d.ts
+
