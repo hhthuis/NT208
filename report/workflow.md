@@ -42,7 +42,7 @@
 
     - Coding Agent: Chuyên gia mã hóa lâm sàng.
 
-    -Các Agents này gom các yêu cầu (Aggregate Requests) và gửi tập trung đến Cổng API (API Gateway).
+    - Các Agents này gom các yêu cầu (Aggregate Requests) và gửi tập trung đến Cổng API (API Gateway).
 
 ### 5. Nguồn Tri thức Y sinh (Biomedical Knowledge)
 
@@ -67,5 +67,6 @@
 - Khi kết quả đã được Verified:
 
 - Hiển thị: Dữ liệu được băm nhỏ (Stream Token) đẩy qua Response Streamer và hiện lên màn hình giao diện (Display) cho người dùng theo thời gian thực (hiệu ứng gõ chữ).
+
 
 - Lưu trữ: Đồng thời, tài liệu hoàn chỉnh được lưu vào Document Storage, sau đó gửi tín hiệu cập nhật (Update) ngược lên Cache Check ở Lớp 3 để phục vụ các người dùng sau.
